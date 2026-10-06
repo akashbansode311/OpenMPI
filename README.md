@@ -1,4 +1,4 @@
-# Simple MPI Program: Compile and Run
+# Compile and Run MPI Program 
 
 ## Step 1: Compile
 
