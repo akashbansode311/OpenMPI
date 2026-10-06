@@ -3,7 +3,7 @@
 ## Step 1: Compile
 
 ```bash
-mpicc hello_mpi.c -o 01.Hello_World.c
+mpicc 01.Hello_World.c -o 01.Hello_World
 ```
 
 ## Step 2: Run
