@@ -3,7 +3,7 @@
 ## Step 1: Compile
 
 ```bash
-mpicc hello_mpi.c -o hello_mpi
+mpicc hello_mpi.c -o 01.Hello_World.c
 ```
 
 ## Step 2: Run
@@ -11,7 +11,7 @@ mpicc hello_mpi.c -o hello_mpi
 Run with 4 processes:
 
 ```bash
-mpirun -np 4 ./hello_mpi
+mpirun -np 4 ./01.Hello_World
 ```
 
 ## Expected Output
