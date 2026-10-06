@@ -24,12 +24,3 @@ Hello from process 2 of 4
 Hello from process 1 of 4
 Hello from process 3 of 4
 ```
-
-## Notes
-
-- If `mpirun` is not available, use `mpiexec -n 4 ./hello_mpi`.
-- To run with more processes than available cores (OpenMPI):
-
-  ```bash
-  mpirun --oversubscribe -np 8 ./hello_mpi
-  ```
